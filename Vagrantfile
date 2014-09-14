@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.provider "docker" do |d|
-    d.image = "guilhem/vagrant-ubuntu"
+    d.image = "guilhem/vagrant-ubuntu:14.04"
     d.has_ssh = true
   end
 
